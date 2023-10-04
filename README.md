@@ -15,7 +15,7 @@ Table of contents
 
 The goal of this project is to estimate Carbon loss from disturbance
 using remotely sensed data from Canada’s boreal peatlands and forests
-(Figure 1).Peatlands (*Sphagnum*) are **wetlands** [^1] containing
+(Figure 1). Peatlands (*Sphagnum*) are **wetlands** [^1] containing
 partly decomposed plant materials (Wieder, et al., 2008), while forests
 are defined as areas with canopy cover \< 10% and tree heights \< 3 m.
 Both peatlands and trees serve as significant reservoirs of carbon
@@ -41,10 +41,17 @@ encompass **wildfire**, **biomass**, **carbon**, **peatlands**,
 exploring how remotely sensed data from instruments like Landsat, which
 employ optical sensors and active sensors such as lidar, can be employed
 to map biomass loss resulting from major disturbances like wildfires.
+
+More about my research can be found here:
 [link](https://scholar.google.com/citations?user=pv3jaowAAAAJ&hl=en)
 
-![alt
-text](/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Burned_area_images/Canadian_Boreal_Forest.png)
+<figure>
+<img
+src="/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Burned_area_images/Canadian_Boreal_Forest.png"
+alt="alt text" />
+<figcaption aria-hidden="true">alt text</figcaption>
+</figure>
+
 Figure 1: Map of Canada boreal forest
 
 ## Geographical extent
