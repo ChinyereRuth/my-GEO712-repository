@@ -14,18 +14,19 @@ Table of contents
 # Description of carbon loss project
 
 The goal of this project is to estimate Carbon loss from disturbance
-using remotely sensed data from peatlands and forests.Peatlands
-(*Sphagnum*) are **wetlands** [^1] containing partly decomposed plant
-materials (Wieder, et al., 2008), while forests are defined as areas
-with canopy cover \< 10% and tree heights \< 3 m. Both peatlands and
-trees serve as significant reservoirs of carbon stocks in boreal
-forests, with a substantial portion of this zone located in Canada.
-However, these ecosystems are releasing accumulated biomass from both
-trees and below ground, primarily due to climate-induced changes in
-wildfires. This human-induced climate change is causing fuels in forests
-and peatlands to dry out, rendering this ecosystem more susceptible to
-wildfires. These fires release carbon dioxide and other harmful gases
-into the atmosphere, impacting both health and plant biomass stocks.
+using remotely sensed data from Canada’s boreal peatlands and forests
+(Figure 1).Peatlands (*Sphagnum*) are **wetlands** [^1] containing
+partly decomposed plant materials (Wieder, et al., 2008), while forests
+are defined as areas with canopy cover \< 10% and tree heights \< 3 m.
+Both peatlands and trees serve as significant reservoirs of carbon
+stocks in boreal forests, with a substantial portion of this zone
+located in Canada. However, these ecosystems are releasing accumulated
+biomass from both trees and below ground, primarily due to
+climate-induced changes in wildfires. This human-induced climate change
+is causing fuels in forests and peatlands to dry out, rendering this
+ecosystem more susceptible to wildfires. These fires release carbon
+dioxide and other harmful gases into the atmosphere, impacting both
+health and plant biomass stocks.
 
 Understanding and accurately predicting the areas vulnerable to burning
 is crucial for effective wildfire prevention measures (Parks, 2014).
@@ -41,6 +42,10 @@ exploring how remotely sensed data from instruments like Landsat, which
 employ optical sensors and active sensors such as lidar, can be employed
 to map biomass loss resulting from major disturbances like wildfires.
 [link](https://scholar.google.com/citations?user=pv3jaowAAAAJ&hl=en)
+
+![alt
+text](/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Burned_area_images/Canadian_Boreal_Forest.png)
+Figure 1: Map of Canada boreal forest
 
 ## Geographical extent
 
@@ -60,19 +65,9 @@ users, you have yo.
 
 This project is still ongoing and wit is expected to end by 2026.
 
-## Acknowledgement
-
-This project was funded by McMaster University Grdauate Scool. Many
-thanks to Antonio Paez for teachin us how to Implement a preproducible
-workflow in R markdown and Github
-
-## Contact
-
-Please feel free to contact me on <ottahc@mcmaster.ca>
-
 # Project assests
 
-# Importing Excel file into Rmarkdown
+## The table and scatterplot showing carbon loss and dNBR for fires between 2000 to 2010.
 
 ``` r
 carbon_loss <- read.csv("/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Response_variable/carbon_loss.csv")
@@ -693,11 +688,7 @@ legend("topright", legend = "Regression Line", col = "red", lty = 1, cex = 0.8)
 
 ![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
-Carbon_loss \<- read.csv
-(“/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Response_variable/carbon_loss.csv”)
-The project is organized as follows:
-
-\## Folder Structure
+# Project’s Folder Structure
 
 - `R_course/`
 
@@ -716,5 +707,15 @@ The project is organized as follows:
       - `Results/`
         - `analysis_results.csv` (Sample analysis results)
       - `README.md` (This file, explaining the folder structure)
+
+## Acknowledgement
+
+This project was funded by McMaster University Grdauate Scool. Many
+thanks to Prof. Antonio Paez for teaching us and giving us an
+intoduction to Github for version control
+
+## Contact
+
+Please feel free to contact me on <ottahc@mcmaster.ca>
 
 [^1]: Marshes, Swamps and peatlands
