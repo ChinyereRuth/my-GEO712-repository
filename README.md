@@ -74,7 +74,8 @@ This project is still ongoing and wit is expected to end by 2026.
 
 # Project assests
 
-## The table and scatterplot showing carbon loss and dNBR for fires between 2000 to 2010.
+The table and scatterplot showing carbon loss and dNBR for fires between
+2000 to 2010.
 
 ``` r
 carbon_loss <- read.csv("/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Response_variable/carbon_loss.csv")

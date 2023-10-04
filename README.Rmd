@@ -60,7 +60,8 @@ library(readr)
 
 # Project assests 
 
-## The table and scatterplot showing carbon loss and dNBR for fires  between 2000 to 2010. 
+The table and scatterplot showing carbon loss and dNBR for fires  between 2000 to 2010. 
+
 
 ```{r}
 
