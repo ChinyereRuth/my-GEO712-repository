@@ -1,0 +1,131 @@
+---
+always_allow_html: true
+
+title: Read me file on Carbon loss modelling from disturbances in Canada using remotely sensed data
+
+author: "Chinyere Ottah"
+
+date: "25/September/2023"
+
+
+output:
+  github_document
+---
+
+
+Table of contents
+
+* Project description
+* Software used
+* Setup
+* Project status
+
+# Description
+
+The goal of this project is to estimate Carbon loss from disturbance using remotely sensed data from peatlands and forests.Peatlands (*Sphagnum*) are **wetlands** ^[Marshes, Swamps and peatlands] containing partly decomposed plant materials (Wieder, et al., 2008), while forests are defined as areas with canopy cover < 10% and tree heights < 3 m. Both peatlands and trees serve as significant reservoirs of carbon stocks in boreal forests, with a substantial portion of this zone located in Canada. However, these ecosystems are releasing accumulated biomass from both trees and below ground, primarily due to climate-induced changes in wildfires. This human-induced climate change is causing fuels in forests and peatlands to dry out, rendering this ecosystem more susceptible to wildfires. These fires release carbon dioxide and other harmful gases into the atmosphere, impacting both health and plant biomass stocks.
+
+Understanding and accurately predicting the areas vulnerable to burning is crucial for effective wildfire prevention measures (Parks, 2014). Additionally, reporting the amount of biomass lost from fires provides essential feedback for climate-carbon modeling and improvement.
+In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
+
+Motivated by these considerations, Chinyere's research interests encompass **wildfire**, **biomass**, **carbon**, **peatlands**, **forests**, and **remote sensing**. I am particularly intrigued by exploring how remotely sensed data from instruments like Landsat, which employ optical sensors and active sensors such as lidar, can be employed to map biomass loss resulting from major disturbances like wildfires. 
+[link](https://scholar.google.com/citations?user=pv3jaowAAAAJ&hl=en)
+
+## Geographical extent
+Canada's forested and peatlands ecosystems
+
+## Software used
+The software used for this project includes ArcGIS, Google earth engine and R
+
+## Setup
+
+To run this project, you have to have the latest windows verion. For Mac users, you have yo.
+
+## Project Status
+
+This project is still ongoing and wit is expected to end by 2026.
+
+## Acknowledgement
+
+This project was funded by McMaster University Grdauate Scool. Many thanks to Antonio Paez for teachin us how to Implement a preproducible workflow in R markdown and Github
+
+## Contact
+Please feel free to contact me on ottahc@mcmaster.ca
+```{r setup,include=F}
+knitr::opts_chunk$set(echo=TRUE)
+library(kableExtra)
+library(dplyr)
+library(readr)
+```
+
+# Project assests 
+
+# Importing Excel file into Rmarkdown
+
+```{r}
+
+carbon_loss <- read.csv("/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Response_variable/carbon_loss.csv")
+library(knitr)
+library(dplyr)
+kable(carbon_loss[, c("Carbonloss", "dNBR")], caption = "Carbon Loss Table") %>%
+kable_styling(full_width = FALSE) 
+
+
+# Load necessary libraries
+library(readr)
+
+# Perform linear regression
+
+model <- lm(Carbonloss ~ dNBR, data = carbon_loss)
+
+# Summarize the regression results
+
+summary(model)
+
+# Create a scatter plot
+
+plot(carbon_loss$dNBR, carbon_loss$carbonloss, main = "Scatter Plot of dNBR vs Carbon Loss",
+     xlab = "dNBR", ylab = "Carbon Loss")
+     
+#  regression line
+
+abline(model, col = "red")
+
+# legend
+
+legend("topright", legend = "Regression Line", col = "red", lty = 1, cex = 0.8)
+
+```
+
+Carbon_loss <- read.csv ("/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Response_variable/carbon_loss.csv")
+The project is organized as follows:
+
+  ## Folder Structure
+  
+- `R_course/`
+
+  - `Session3_Projects_and_Reproducible_Environments/`
+  
+    - `Carbon_loss_from_disturbances/`
+      - `Data/`
+        - `raw_data.csv` (Sample raw data file)
+      - `Response_variable/`
+        - `carbon_loss.csv` (The response variable data I am using to predict to predict carbon loss)
+      - `Scripts/`
+        - `preprocess_data.R` (R script for data preprocessing)
+      - `Models/`
+        - `model1.RDS` (Trained model file)
+      - `Results/`
+        - `analysis_results.csv` (Sample analysis results)
+      - `README.md` (This file, explaining the folder structure)
+      
+#> /tmp/RtmpnoXhd8/Rinst301434451937/here/demo-project
+
+#> ├── analysis
+
+#> │   └── report.Rmd
+
+#> ├── data
+#> │   └── penguins.csv
+#> ├── demo-project.Rproj
+#> └── prepare
+#>     └── penguins.R
