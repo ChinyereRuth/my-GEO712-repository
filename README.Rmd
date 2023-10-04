@@ -32,7 +32,7 @@ Motivated by these considerations, Chinyere's research interests encompass **wil
 More about my research can be found here:
 [link](https://scholar.google.com/citations?user=pv3jaowAAAAJ&hl=en)
 
-![alt text](/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Burned_area_images/Canadian_Boreal_Forest.png)
+![alt text](/Users/chinyereottah/Desktop/Mac/R_course/Week4_github/Assignment4/my-GEO712-repository/Boreal_forest/Canadian_Boreal_Forest.png)
 
 Figure 1: Map of Canada boreal forest
 

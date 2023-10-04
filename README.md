@@ -47,7 +47,7 @@ More about my research can be found here:
 
 <figure>
 <img
-src="/Users/chinyereottah/Desktop/Mac/R_course/Session3_Projects_and_Reproducible_Environments/Carbon_loss_from_disturbances/Burned_area_images/Canadian_Boreal_Forest.png"
+src="/Users/chinyereottah/Desktop/Mac/R_course/Week4_github/Assignment4/my-GEO712-repository/Boreal_forest/Canadian_Boreal_Forest.png"
 alt="alt text" />
 <figcaption aria-hidden="true">alt text</figcaption>
 </figure>
