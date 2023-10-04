@@ -11,7 +11,7 @@ Table of contents
 - Setup
 - Project status
 
-# Description
+# Description of carbon loss project
 
 The goal of this project is to estimate Carbon loss from disturbance
 using remotely sensed data from peatlands and forests.Peatlands
@@ -716,14 +716,5 @@ The project is organized as follows:
       - `Results/`
         - `analysis_results.csv` (Sample analysis results)
       - `README.md` (This file, explaining the folder structure)
-
-\#\> /tmp/RtmpnoXhd8/Rinst301434451937/here/demo-project
-
-\#\> ├── analysis
-
-\#\> │ └── report.Rmd
-
-\#\> ├── data \#\> │ └── penguins.csv \#\> ├── demo-project.Rproj \#\>
-└── prepare \#\> └── penguins.R
 
 [^1]: Marshes, Swamps and peatlands

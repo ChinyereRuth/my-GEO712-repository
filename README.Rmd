@@ -20,7 +20,7 @@ Table of contents
 * Setup
 * Project status
 
-# Description
+# Description of carbon loss project
 
 The goal of this project is to estimate Carbon loss from disturbance using remotely sensed data from peatlands and forests.Peatlands (*Sphagnum*) are **wetlands** ^[Marshes, Swamps and peatlands] containing partly decomposed plant materials (Wieder, et al., 2008), while forests are defined as areas with canopy cover < 10% and tree heights < 3 m. Both peatlands and trees serve as significant reservoirs of carbon stocks in boreal forests, with a substantial portion of this zone located in Canada. However, these ecosystems are releasing accumulated biomass from both trees and below ground, primarily due to climate-induced changes in wildfires. This human-induced climate change is causing fuels in forests and peatlands to dry out, rendering this ecosystem more susceptible to wildfires. These fires release carbon dioxide and other harmful gases into the atmosphere, impacting both health and plant biomass stocks.
 
@@ -116,16 +116,6 @@ The project is organized as follows:
         - `model1.RDS` (Trained model file)
       - `Results/`
         - `analysis_results.csv` (Sample analysis results)
+        
       - `README.md` (This file, explaining the folder structure)
       
-#> /tmp/RtmpnoXhd8/Rinst301434451937/here/demo-project
-
-#> ├── analysis
-
-#> │   └── report.Rmd
-
-#> ├── data
-#> │   └── penguins.csv
-#> ├── demo-project.Rproj
-#> └── prepare
-#>     └── penguins.R
