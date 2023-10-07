@@ -45,13 +45,7 @@ to map biomass loss resulting from major disturbances like wildfires.
 More about my research can be found here:
 [link](https://scholar.google.com/citations?user=pv3jaowAAAAJ&hl=en)
 
-<figure>
-<img
-src="/Users/chinyereottah/Desktop/Mac/R_course/Week4_github/Assignment4/my-GEO712-repository/Boreal_forest/Canadian_Boreal_Forest.png"
-alt="alt text" />
-<figcaption aria-hidden="true">alt text</figcaption>
-</figure>
-
+![Borealforest](/Users/chinyereottah/Desktop/Mac/R_course/Week4_github/Assignment4/my-GEO712-repository/Boreal_forest/Canadian_Boreal_Forest.png)
 Figure 1: Map of Canada boreal forest
 
 ## Geographical extent

@@ -29,6 +29,7 @@ In that case, don't forget to commit and push the resulting figure files, so the
 
 Motivated by these considerations, Chinyere's research interests encompass **wildfire**, **biomass**, **carbon**, **peatlands**, **forests**, and **remote sensing**. I am particularly intrigued by exploring how remotely sensed data from instruments like Landsat, which employ optical sensors and active sensors such as lidar, can be employed to map biomass loss resulting from major disturbances like wildfires. 
 
+
 More about my research can be found here:
 [link](https://scholar.google.com/citations?user=pv3jaowAAAAJ&hl=en)
 
